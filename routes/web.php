@@ -58,5 +58,4 @@ Route::controller(PositionController::class)->middleware('auth')->prefix('positi
 
 });
 
-Route::get('/test/{id}', [EmployeeController::class, 'test']);
 
