@@ -94,10 +94,5 @@ class EmployeeController extends Controller
         return redirect()->route('employees.index');
     }
 
-    public function test($id)
-    {
-        $employee = Employee::find($id);
-
-        $employee->update(['head_id' => null]);
-    }
+    
 }
